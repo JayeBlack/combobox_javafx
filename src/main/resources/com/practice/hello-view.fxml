@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.practice.HelloController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="username" layoutX="95.0" layoutY="64.0" prefHeight="52.0" prefWidth="396.0" promptText="USERNAME" />
+            <PasswordField fx:id="password" layoutX="97.0" layoutY="156.0" prefHeight="58.0" prefWidth="396.0" promptText="PASSWORD" />
+            <Button fx:id="btnlogin" layoutX="98.0" layoutY="264.0" mnemonicParsing="false" onAction="#onlogin" prefHeight="58.0" prefWidth="146.0" text="LOGIN" />
+            <Button fx:id="btncancel" layoutX="304.0" layoutY="264.0" mnemonicParsing="false" onAction="#oncancel" prefHeight="58.0" prefWidth="146.0" text="CANCEL" />
+            <Label fx:id="label" layoutX="98.0" layoutY="219.0" prefHeight="33.0" prefWidth="175.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
